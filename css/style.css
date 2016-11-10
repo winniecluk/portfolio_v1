@@ -1,0 +1,38 @@
+header {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 0; }
+
+header h1 {
+  margin: 0;
+  font-size: 3.8rem; }
+
+header h5 {
+  margin-top: 0;
+  margin-bottom: 3%; }
+
+.tabs .tab a {
+  color: white; }
+
+.tabs .tab a.active {
+  color: grey; }
+
+.tabs .tab a:hover {
+  color: grey; }
+
+.project {
+  padding: 2%; }
+
+.collapsible-body h6 {
+  margin-top: 6%;
+  font-weight: bolder; }
+
+img {
+  width: 30vw;
+  padding: 5%; }
+
+.material-icons {
+  font-size: 1rem; }
+
+/*# sourceMappingURL=style.css.map */

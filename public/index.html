@@ -8,7 +8,7 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-  <header class="blue z-depth-2">
+  <header class="blue z-depth-3">
     <h1 class="grey-text text-lighten-3">Winnie Luk</h1>
     <h5 class="grey-text text-lighten-1">Web Developer</h5>
 
@@ -238,17 +238,19 @@
     <div class="container">
       <div class="row">
         <div class="card-panel grey lighten-4">
-          <h5>Contact Form</h5>
-          <div class="input-field col s6">
-            <input id="name" type="text" class="validate">
-            <label for="name">Name</label>
+          <div id="contact-form">
+            <h5>Contact Form</h5>
+            <div class="input-field col s6">
+              <input id="name" type="text" class="validate">
+              <label for="name">Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="email" type="text" class="validate">
+              <label for="email" data-error="wrong">Email</label>
+            </div>
+            <textarea class="materialize-textarea" placeholder="Write to me here!" id="message" required></textarea>
+            <a class="waves-effect waves-light btn submit">Submit</a>
           </div>
-          <div class="input-field col s6">
-            <input id="email" type="text" class="validate">
-            <label for="email">Email</label>
-          </div>
-          <textarea class="materialize-textarea" placeholder="Write to me here!" required></textarea>
-          <a class="waves-effect waves-light btn">Submit</a>
         </div> <!-- This closes the card-panel -->
       </div> <!-- this closes the row -->
     </div> <!-- This closes the container -->
@@ -258,5 +260,6 @@
   </footer>
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script type="text/javascript" src="js/bin/materialize.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

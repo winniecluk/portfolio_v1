@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 mongoose.Promise = Promise;
-mongoose.connect('mongodb://winniecluk:Basket0Mongoose@ds151127.mlab.com:51127/contact');
+mongoose.connect(process.env.DB_PATH);
 
 mongoose.connection.once('open', function(){
   console.log('Connected to Mongo DB!');

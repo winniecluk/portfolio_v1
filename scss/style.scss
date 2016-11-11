@@ -36,12 +36,38 @@ header h5 {
   font-weight: bolder;
 }
 
-img {
+.collapsible-body img {
   width: 30vw;
   padding: 5%;
+}
+
+.about img {
+  width: 20vw;
 }
 
 .material-icons {
   font-size: 1rem;
 }
+
+.links {
+  margin-top: 5%;
+}
+
+/* media query */
+
+@media only screen and (max-width: 600px) {
+
+  .about img {
+    width: 50vw;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .collapsible-body img {
+    width: 60vw;
+    display: block;
+    margin: 0 auto;
+  }
+
+} /* this closes media queries */
 

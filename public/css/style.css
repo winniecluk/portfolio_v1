@@ -16,10 +16,10 @@ header h5 {
   color: white; }
 
 .tabs .tab a.active {
-  color: grey; }
+  color: #BFBFBF; }
 
 .tabs .tab a:hover {
-  color: grey; }
+  color: #BFBFBF; }
 
 .project {
   padding: 2%; }
